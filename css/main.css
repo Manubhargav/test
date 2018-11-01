@@ -1,3 +1,46 @@
 * {
     background-color: black !important;
+    color: white;
+}
+
+header {
+    margin-bottom: 60px;
+    font-size: 25px;
+}
+
+.navbar {
+    padding: 0px
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+main {
+    height: 80vh;
+}
+
+.fill-navbar-brand {
+    margin: 0px;
+}
+
+.fill-navbar-brand a {
+    margin: 0px;
+    padding: 8px;
+}
+
+.fill-red a {
+    background-color: red !important;
+}
+
+.fill-blue a {
+    background-color: blue !important;
+}
+
+.fill-green a {
+    background-color: green !important;
+}
+
+.fill-yellow a {
+    background-color: yellowgreen !important;
 }
