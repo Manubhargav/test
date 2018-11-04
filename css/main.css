@@ -1,5 +1,5 @@
 * {
-    background-color: black !important;
+    background-color: #111 !important;
     color: white;
 }
 
@@ -9,7 +9,8 @@ header {
 }
 
 .navbar {
-    padding: 0px
+    padding: 0px;
+    font-weight: 500;
 }
 
 .navbar-brand {
@@ -30,19 +31,15 @@ main {
 }
 
 .fill-red a {
-    background-color: red !important;
+    background-color: #e74c3c !important;
 }
 
 .fill-blue a {
-    background-color: blue !important;
+    background-color: #2980b9 !important;
 }
 
 .fill-green a {
-    background-color: green !important;
-}
-
-.fill-yellow a {
-    background-color: yellowgreen !important;
+    background-color: #16a085 !important;
 }
 
 .main-contact-heading {
@@ -57,10 +54,39 @@ main {
     padding-bottom: 20px;
 }
 
-.contact-container {
+.contact-container-content {
     margin-bottom: 70px;
 }
 
 .contact-details {
     padding: 0px 20px;
+    color: #2980b9;
+}
+
+.paint-red {
+    color: #e74c3c;
+}
+
+.paint-green {
+    color:#16a085;
+}
+
+.paint-blue {
+    color:#2980b9;
+}
+
+.about-nav-item:hover {
+    border-bottom: 4px solid #16a085;
+}
+
+.work-nav-item:hover {
+    border-bottom: 4px solid #e74c3c;
+}
+
+.contact-nav-item:hover {
+    border-bottom: 4px solid #2980b9;
+}
+
+.about-container, .work-container, .contact-container {
+    padding-top: 100px;
 }
